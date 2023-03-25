@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap");
+
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  margin: 0;
+  display: none;
+}
+
+html {
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+body {
+  margin: 0;
+}
+ul,
+ol {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+a {
+  text-decoration: none;
+  display: inline-block;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  margin: 0;
+}
+.container {
+  max-width: 1400px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+img {
+  max-width: 100%;
+  width: 100%;
+  height: auto;
+  display: inline-block;
+}
+.form {
+  text-align: center;
+  margin-top: 77px;
+}
+.inputId {
+  max-width: 290px;
+  width: 100%;
+  padding: 11px 13px;
+}
+.btn {
+  padding: 6px 10px;
+  margin-left: 21px;
+  font-size: 14px;
+  font-family: "Inter", sans-serif;
+  font-weight: 500;
+  border: none;
+  border: 1px solid black;
+  border-radius: 7px;
+  background-color: white;
+}
+.text {
+  max-width: 300px;
+  margin-top: 33px;
+  margin-right: auto;
+  margin-left: auto;
+  font-size: 19px;
+  padding: 8px 0;
+  padding-left: 15px;
+  color: red;
+}
+
+@media only screen and (max-width: 426px) {
+  .btn {
+    margin-top: 25px;
+    margin-left: 0;
+  }
+}
